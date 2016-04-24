@@ -1,0 +1,58 @@
+REM  *****  BASIC  *****
+
+Sub Main
+	Dim i
+	Dim j
+	Dim Num_chunk
+	Dim Num_trials
+	Dim Num_Frequency
+	Dim Index_Last
+	Dim Frequency(13)
+	Dim aveVol(13)
+	
+	Num_chunk = 5
+	Num_Frequency = 13
+	
+	Frequency(0) = 20
+	Frequency(1) = 40
+	Frequency(2) = 60
+    	Frequency(3) = 80
+    	Frequency(4) = 100
+	Frequency(5) = 150
+	Frequency(6) = 200
+    	Frequency(7) = 250
+	Frequency(8) = 300
+	Frequency(9) = 400
+	Frequency(10) = 500
+	Frequency(11) = 600
+    	Frequency(12) = 700
+	
+	Num_trials = Num_chunk * Num_Frequency
+	Index_Last = Num_trials
+	
+	For i = 1 To Index_Last 
+		For j = 0 To Num_Frequency-1
+			If Frequency(j) = ThisComponent.Sheets(0).getCellByPosition(1, i).Value Then
+				aveVol(j) = aveVol(j) + ThisComponent.Sheets(0).getCellByPosition(7, i).Value
+			End If
+		Next j
+	Next i
+	
+	i = 0
+	
+	ThisComponent.Sheets(0).getCellByPosition(15, 0).String = "Frequency"
+	ThisComponent.Sheets(0).getCellByPosition(16, 0).String = "Average_volume"
+	ThisComponent.Sheets(0).getCellByPosition(17, 0).String = "3dB_Plus"
+	ThisComponent.Sheets(0).getCellByPosition(18, 0).String = "4dB_Plus"
+	ThisComponent.Sheets(0).getCellByPosition(19, 0).String = "5dB_Plus"
+		
+	For i = 1 To Num_Frequency
+		aveVol(i-1) = aveVol(i-1) / Num_chunk
+		ThisComponent.Sheets(0).getCellByPosition(15, i).Value = Frequency(i-1)
+		ThisComponent.Sheets(0).getCellByPosition(16, i).Value = aveVol(i-1)
+		ThisComponent.Sheets(0).getCellByPosition(17, i).Value = aveVol(i-1) * 10 ^ (3/20)
+		ThisComponent.Sheets(0).getCellByPosition(18, i).Value = aveVol(i-1) * 10 ^ (4/20)
+		ThisComponent.Sheets(0).getCellByPosition(19, i).Value = aveVol(i-1) * 10 ^ (5/20)
+	Next i
+
+End Sub
