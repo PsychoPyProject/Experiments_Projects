@@ -1,0 +1,17 @@
+Signal Detect theory(ver1.0)
+
+** Open **
+  example1.psyexp
+  or
+  example1_lastrun.py
+
+** Manipuration **
+   *You can introduce guide in experiments.
+     ** i: Press 'f', When you can feel vibration.
+     ** f: Press 'i', When you can not feel vibration.
+
+** Results **
+   *Results are in 'data' folder.
+
+** Experiment's condision **
+   *written in 'stimulation2.xlsx'

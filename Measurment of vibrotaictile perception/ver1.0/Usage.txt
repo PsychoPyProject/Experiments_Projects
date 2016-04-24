@@ -1,0 +1,20 @@
+Measurment of vibrotaictile perception(ver1.0)
+
+You can use ten key in this experiments.
+
+** Open **
+  ENexp1_04082016.py
+
+** Manipuration **
+   *Use Ten Key
+   *You can introduce guide in experiments.
+     ** Å´: Down the volume.
+     ** Å™: Up the volume.
+     ** Å®: Play the stimlation vibration.
+     ** Å©: Play the standard vibration.
+
+** Results **
+   *Results are in 'data' folder.
+
+** Experiment's condision **
+   *written in 'exam1_setwave.xlsx'

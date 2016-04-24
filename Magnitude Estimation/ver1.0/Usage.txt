@@ -1,0 +1,15 @@
+Magnitude Estimation(ver1.0)
+
+** Open **
+  example3.psyexp
+  or
+  example3_lastrun.py
+
+** Manipuration **
+   *You can find guide in experiments.
+
+** Results **
+   *Results are in 'data' folder.
+
+** Experiment's condision **
+   *written in 'experiment3.xlsx'
