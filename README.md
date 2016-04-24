@@ -1,7 +1,7 @@
 PsychoPyProject
 ======================
 These projects are for tactile psychophisics experiments   
-[Contents and version details](https://github.com/PsychoPyProject/Projects/wiki/Version-and-contents) are described in [Wiki](https://github.com/PsychoPyProject/Projects/wiki/Version-and-contents).   
+[Version details](https://github.com/PsychoPyProject/Experiments_Projects/wiki/version-and-contents) are described in [Wiki](https://github.com/PsychoPyProject/Experiments_Projects/wiki/version-and-contents).   
 You can know the details from this [Web Page](http://e14m5212.wix.com/en-psychopy-tactile). (←working)  
 
  
