@@ -37,8 +37,6 @@ You can find 'Usage' in each projects.
 Results are automatically saved in data folder in each project.  
 You can use Excel or Spread Sheet data to analyze.
  
-Author
+Contacts
 ----------
-Anzu Kawazoe and Masashi Nakatani leads these projects.  
 If you have any notice, please contact e14m5212[at]gmail.com  
-Copyright &copy; 2016 Anzu Kawazoe and Masashi Nakatani  
