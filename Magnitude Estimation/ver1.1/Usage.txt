@@ -1,0 +1,30 @@
+Usage Magnitude Estimation ver1.1
+
+In this program,
+you can compare frequency of standard vibration and the frequency of stimulate vibration
+and estimate the frequency of stimulate vibration.
+
+**How to use**
+ÅEdownload ver 1.1 folder
+ÅEopen untitled4.psyexp in ver 1.1
+
+**process**
+
+1.The standerd vibration is provibed.
+If you can remenber it,press Space key.
+
+2.The stimulate vibration is provibed.(3sec)
+
+3.You can estimate frequency of stimulate vibration by using number key(not Ten key).
+  You can use "q" key to delete the number.
+  If you deside, press Enter and go to next trial.
+
+**Experimental condition**
+
+In experiment3.xlsx, experimental condition is described.
+
+**parameters
+
+sound_file........This parameter shows name of file that is stimulate vibration.
+standerd_sound....This parameter shows name of file that is standard vibration.
+volume_1..........This parameter shows volume of stimulate vibration and standard vibration.
