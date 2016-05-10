@@ -1,0 +1,65 @@
+3.4411 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor instance at 0x0A984F58>, name='window1', pos=[0, 0], screen=0, size=array([1280,  720]), stereo=False, units=u'norm', useFBO=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+3.4412 	EXP 	window1: recordFrameIntervals = False
+3.7512 	EXP 	window1: recordFrameIntervals = True
+4.0954 	EXP 	window1: recordFrameIntervals = False
+4.2315 	EXP 	Created text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.08, italic=False, name='text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+5.1095 	EXP 	Set  sound=C
+5.1455 	EXP 	Set  sound=A
+5.1455 	EXP 	Sound  set volume 1.000
+5.1799 	EXP 	Set  sound=A
+5.1799 	EXP 	Sound  set volume 1.000
+5.2028 	EXP 	Created text_2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.08, italic=False, name='text_2', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'Stimulate vibration is being provided.', units=u'norm', win=Window(...), wrapWidth=1)
+5.2164 	EXP 	Created number = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='number', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=array([ 255.,  255.,  255.]), text=u'default text', units=u'norm', win=Window(...), wrapWidth=1)
+5.2548 	EXP 	Created text_3 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.07, italic=False, name='text_3', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+5.2624 	EXP 	Imported standard_sound.xlsx as conditions, 1 conditions, 2 params
+5.2627 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+5.2632 	EXP 	New trial (rep=0, index=0): {u'standerd_sound': u'SIN400_20.wav', u'volume_2': 0.5}
+5.2830 	EXP 	Set  sound=SIN400_20.wav
+5.2831 	EXP 	Sound  set volume 0.500
+5.2840 	EXP 	Sound  started
+5.2941 	EXP 	text: autoDraw = True
+7.0051 	DATA 	Keypress: space
+7.0055 	EXP 	Sound  stopped
+7.0278 	EXP 	Imported experiment3.xlsx as conditions, 10 conditions, 2 params
+7.0291 	EXP 	Created sequence: random, trialTypes=10, nReps=3, seed=None
+7.0305 	EXP 	New trial (rep=0, index=0): {u'sound_file': u'SIN100_20.wav', u'volume_1': 0.5}
+7.0810 	EXP 	Set  sound=SIN100_20.wav
+7.0812 	EXP 	Sound  set volume 0.500
+7.0839 	EXP 	Sound  started
+7.0995 	EXP 	text: autoDraw = False
+7.0995 	EXP 	text_2: autoDraw = True
+10.0164 	EXP 	Sound  stopped
+10.0317 	EXP 	window1: recordFrameIntervals = False
+10.0491 	EXP 	text_2: autoDraw = False
+10.0491 	EXP 	number: autoDraw = True
+10.0491 	EXP 	text_3: autoDraw = True
+10.0578 	EXP 	window1: recordFrameIntervals = False
+10.7235 	DATA 	Keypress: 1
+10.8369 	DATA 	Keypress: 3
+11.2072 	DATA 	Keypress: return
+11.2127 	EXP 	New trial (rep=0, index=1): {u'sound_file': u'SIN150_20.wav', u'volume_1': 0.5}
+11.2305 	EXP 	Set  sound=SIN150_20.wav
+11.2306 	EXP 	Sound  set volume 0.500
+11.2315 	EXP 	Sound  started
+11.2391 	EXP 	number: autoDraw = False
+11.2391 	EXP 	text_3: autoDraw = False
+11.2391 	EXP 	text_2: autoDraw = True
+14.1972 	EXP 	Sound  stopped
+14.1977 	EXP 	Sound  stopped
+14.2079 	EXP 	window1: recordFrameIntervals = False
+14.2303 	EXP 	text_2: autoDraw = False
+14.2303 	EXP 	text_2: autoDraw = False
+14.2303 	EXP 	number: autoDraw = True
+14.2303 	EXP 	text_3: autoDraw = True
+14.2431 	EXP 	window1: recordFrameIntervals = False
+14.6864 	DATA 	Keypress: 1
+14.7470 	DATA 	Keypress: 3
+15.0735 	DATA 	Keypress: return
+15.0844 	EXP 	New trial (rep=0, index=2): {u'sound_file': u'SIN250_20.wav', u'volume_1': 0.5}
+15.1025 	EXP 	Set  sound=SIN250_20.wav
+15.1025 	EXP 	Sound  set volume 0.500
+15.1034 	EXP 	Sound  started
+15.1144 	EXP 	number: autoDraw = False
+15.1144 	EXP 	text_3: autoDraw = False
+15.1144 	EXP 	text_2: autoDraw = True
+16.3125 	DATA 	Keypress: escape

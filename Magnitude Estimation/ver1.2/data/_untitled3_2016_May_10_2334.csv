@@ -1,0 +1,3 @@
+standerd_sound,volume_2,sound_file,volume_1,trials_2.thisRepN,trials_2.thisTrialN,trials_2.thisN,trials_2.thisIndex,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,key_resp_2.keys,key_resp_2.rt,response,key_resp_3.keys,key_resp_3.rt,date,frameRate,expName,session,participant,
+SIN400_20.wav,0.5,SIN100_20.wav,0.5,0,0,0,0,0,0,0,1,"['1', '3']","[0.6853988448856398, 0.7879602720495313]",13,return,1.15823852643,2016_May_10_2334,31.9520162317,untitled3,001,,
+SIN400_20.wav,0.5,SIN150_20.wav,0.5,0,0,0,0,0,1,1,2,"['1', '3']","[0.49881601775996387, 0.5167984071886167]",13,return,0.850219548447,2016_May_10_2334,31.9520162317,untitled3,001,,
